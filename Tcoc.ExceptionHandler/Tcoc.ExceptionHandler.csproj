@@ -70,6 +70,7 @@
     <Compile Include="Exceptions\SampleException.cs" />
     <Compile Include="Exceptions\UnknownAppDomainException.cs" />
     <Compile Include="ExceptionHandling\WindowExceptionHandler.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
     <Compile Include="ViewModels\ExceptionWindowViewModel.cs" />
     <Compile Include="Windows\ExceptionWindow.xaml.cs">
       <DependentUpon>ExceptionWindow.xaml</DependentUpon>
