@@ -17,7 +17,7 @@ namespace Tcoc.ExceptionHandler.ExceptionHandling
         /// </summary>
         public override void OnUnhandledException(Exception e)
         {
-            var operation = Application.Current.Dispatcher.BeginInvoke(new Action(() => {
+            Application.Current.Dispatcher.BeginInvoke(new Action(() => {
                 var exceptionWindow = new ExceptionWindow();
                 exceptionWindow.DataContext = new ExceptionWindowVM(e);
                 exceptionWindow.Show();

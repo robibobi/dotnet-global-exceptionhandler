@@ -12,15 +12,16 @@
                    Text="Global exception handler sample" />
         <Button Margin="0,0,0,8"
                 Click="RaiseException"
-                Content="Raise Exception" />
-        <Button Margin="0,0,0,8"
-                Click="RaiseExceptionOnThread"
-                Content="Raise Exception on another Thread" />
-        <Button Margin="0,0,0,8"
-                Click="RaiseExceptionOnThreadSafe"
-                Content="Raise Exception on another Thread (handled)" />
+                Content="Throw Exception" />
+
         <Button Margin="0,0,0,8"
                 Click="RaiseExceptionOnUnobservedTask"
-                Content="Raise Exception on unawaited Task" />
+                Content="Raise exception on unawaited Task" />
+        <Button Margin="0,0,0,8"
+                Click="RaiseExceptionOnThread"
+                Content="Throw on another Thread (app will crash)" />
+        <Button Margin="0,0,0,8"
+                Click="RaiseExceptionOnThreadSafe"
+                Content="Throw on another Thread handled" />
     </StackPanel>
 </Window>

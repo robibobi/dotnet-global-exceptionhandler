@@ -5,7 +5,7 @@ namespace Tcoc.ExceptionHandler
 {
     public partial class App : Application
     {
-        private WindowExceptionHandler _exceptionHandler;
+        private readonly WindowExceptionHandler _exceptionHandler;
 
         public App()
         {
